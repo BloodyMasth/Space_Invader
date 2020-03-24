@@ -25,5 +25,5 @@ class Monstre(pygame.sprite.Sprite):
 
     def changer_sens(self):
         self.vitesse = self.vitesse * -1
-        self.rect.y = self.rect.y + self.rect.height
+        #self.rect.y = self.rect.y + self.rect.height
 
